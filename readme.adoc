@@ -1,0 +1,33 @@
+= Installing Chrome-OS Flex on Macbook Air 2010
+:docdate:
+:experimental: 
+:xrefstyle: short
+:toc: 
+:sectnums:
+:idprefix:
+:idseparator: -
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+== Purpose
+This document contains a report of experiences gathered after installing Chrome OS Flex on a MacBook Air 11 inch, model of late 2010. There are several reports available on the internet but most are related to newer hardware and hardware with better specifications. The late 2010 model of MacBook used for this experiment had the following specifications: 
+
+**Processor and memory**
+
+* 1.4GHz Intel Core 2 Duo processor with 3MB on-chip shared L2 cache; 
+* 800MHz frontside bus
+* 4GB of 1066MHz DDR3 SDRAM onboard (4GB maximum)
+
+**Storage** 
+* Flash Storage 64GB, upgraded later to 256 Gbyte
+
+**Graphics**
+* NVIDIA GeForce 320M graphics processor with 256MB of DDR3 SDRAM shared with main memory3
+
+
