@@ -16,7 +16,10 @@ ifdef::env-github[]
 endif::[]
 
 == Purpose
-This document contains a report of experiences gathered after installing Chrome OS Flex on a MacBook Air 11 inch, model of late 2010. There are several reports available on the internet but most are related to newer hardware and hardware with better specifications. The late 2010 model of MacBook used for this experiment had the following specifications: 
+This document contains a report of experiences gathered after installing Chrome OS Flex on a MacBook Air 11 inch, model of late 2010. There are several reports available on the internet but most are related to newer hardware and hardware with better specifications. The installation of Chrome OS on this laptop resulted only in a part success. At first everything seemed to work fine and the performance was extraordinary. But what started with small glitches on the display sometimes resulted in long periods during which the screen was frozen and sometimes even a complete crash. The glitches in the display looked very similar to the glitches experienced earlier with an installation of Linux on the same laptop. This is a known issue reported earlier (see https://support.google.com/chromeosflex/answer/11541806#zippy=%2Cnvidia-graphics-are-generally-unstable). 
+
+== Specification of the MacBook
+The late 2010 model of MacBook used for this experiment had the following specifications: 
 
 **Processor and memory**
 
@@ -25,9 +28,28 @@ This document contains a report of experiences gathered after installing Chrome 
 * 4GB of 1066MHz DDR3 SDRAM onboard (4GB maximum)
 
 **Storage** 
+
 * Flash Storage 64GB, upgraded later to 256 Gbyte
 
 **Graphics**
+
 * NVIDIA GeForce 320M graphics processor with 256MB of DDR3 SDRAM shared with main memory3
 
+
+
+== Graphics issues 
+
+_________________________________________
+NVIDIA graphics are generally unstable
+
+*Known issue* 
+
+Devices using Nvidia GPUs are likely to be unstable and exhibit display flickering when under heavy GPU load. 
+
+Devices using the Quadro NVS 4200M are not recommended for use. 
+Multiple generations of Intel GPUs are unsupported on ChromeOS Flex and will not boot it.
+
+Intel Generation 3 and older, including GMA 900, 950, 3100, 3150
+Intel PowerVR graphics, including GMA 500, 600, 3600, 3650
+________________________________________
 
