@@ -39,7 +39,9 @@ The late 2010 model of MacBook used for this experiment had the following specif
 
 == Graphics issues 
 
-_________________________________________
+
+
+_________________________________________ 
 NVIDIA graphics are generally unstable
 
 *Known issue* 
