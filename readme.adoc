@@ -85,6 +85,10 @@ sudo dd if=image_name.bin of=/dev/sdN bs=4M status=progress
 image_name.bin—The name of the downloaded installer file
 /dev/sdN—The USB drive
 
+via MacOS terminal
+
+diskutil list
+sudo umount /dev/disk2
 
 == Specification of the MacBook
 The late 2010 model of MacBook used for this experiment had the following specifications: 
