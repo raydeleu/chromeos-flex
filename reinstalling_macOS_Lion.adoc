@@ -1,0 +1,5 @@
+= Reinstalling macOS Lion
+
+== Summary
+This note describes how to reinstall the macOS operating system on an Apple MacBook. Note that this procedure will not always work. Some of the images added to this note were made of an installation of a MacBook Air Late 2010 performed in May 2023. It was no longer possible to reinstall the original operating system OSX Lion as this is no longer supported. However, some of the steps could still be used to prepare the laptop for the installation of Linux Mint. 
+
