@@ -55,3 +55,4 @@ Intel Generation 3 and older, including GMA 900, 950, 3100, 3150
 Intel PowerVR graphics, including GMA 500, 600, 3600, 3650
 ________________________________________
 
+https://blog.virtualwolf.org/installing-linux-mint-19-1-on-a-late-2010-macbook-air/
