@@ -18,6 +18,74 @@ endif::[]
 == Purpose
 This document contains a report of experiences gathered after installing Chrome OS Flex on a MacBook Air 11 inch, model of late 2010. There are several reports available on the internet but most are related to newer hardware and hardware with better specifications. The installation of Chrome OS on this laptop resulted only in a part success. At first everything seemed to work fine and the performance was extraordinary. But what started with small glitches on the display sometimes resulted in long periods during which the screen was frozen and sometimes even a complete crash. The glitches in the display looked very similar to the glitches experienced earlier with an installation of Linux on the same laptop. This is a known issue reported earlier (see https://support.google.com/chromeosflex/answer/11541806#zippy=%2Cnvidia-graphics-are-generally-unstable). 
 
+== Installation procedure
+
+https://support.google.com/chromeosflex/answer/11552529?hl=en
+
+What you need
+Device to create the USB installer—The device that you use to create your USB installer can be different to the device you plan to install ChromeOS Flex on.
+I’m using Chromebook Recovery Utility—ChromeOS, Windows, or Mac device with the current version of Chrome browser.
+I’m not using Chromebook Recovery Utility—ChromeOS, Windows, Mac, or Linux device. Chrome browser not needed.
+USB drive
+8 GB or more.
+From time to time, Sandisk or other USB drives might not work as installers. Find out more in Known issues.
+All contents on the USB drive will be erased.
+
+Windows, Mac, or Linux device to install ChromeOS Flex on—your target device
+Google only guarantees ChromeOS Flex functionality on certified models.
+Variants of certified models might have unexpected issues.
+ChromeOS Flex might work on non-certified devices but performance, functionality, and stability are not guaranteed.
+
+Minimum device requirements:
+Architecture: Intel or AMD x86-64-bit compatible device
+RAM: 4 GB
+Internal storage: 16 GB
+Bootable from USB drive
+BIOS: Full administrator access. You’ll need to boot from the ChromeOS Flex USB installer and make some adjustments in the BIOS if you run into issues.
+Processor and graphics: Components made before 2010 might result in a poor experience.
+Note: Intel GMA 500, 600, 3600, and 3650 graphics hardware do not meet ChromeOS Flex performance standards.
+
+Step 1: Install Chromebook Recovery Utility
+On your ChromeOS, Windows, or Mac device, open Chrome browser "".
+Go to the Chrome web store.
+At the top right, click Add to Chrome.
+When prompted, click Add extension.
+The Chromebook Recovery Utility is now an extension in your Chrome browser.
+
+Step 2: Make sure Chrome Recovery Utility extension is turned on
+At the top right of your Chrome browser window, click Extensions and thenManage extensions.
+Next to Chromebook Recovery Utility, toggle the switch to the right.
+Optional: You can also click Details and toggle the switch to the right.
+After you turn on the Chromebook Recovery Extension, in the extension panel in your browser, click on the extension to open the pop-up.
+
+Step 3: Build the USB installer
+In Chrome browser, launch the Chrome Recovery Utility extension.
+Click Get started.
+Click Select a model from a list.
+For Select a manufacturer, find and click Google ChromeOS Flex.
+For Select a product, find and click ChromeOS Flex.
+Chromebook Recovery Utility
+Click Continue.
+When prompted, insert your USB drive.
+From the dropdown menu, select the USB drive.
+Click Continue.
+Click Create now.
+Note: During the process, it is normal for Chrome Recovery Utility to show unusual percentages.
+When you get a message that your recovery media is ready, remove your USB drive from the device.
+
+For admins who are comfortable with creating bootable USB drives using dd command-line utility or other third-party utilities.
+
+On your device, download the latest ChromeOS Flex installer image.
+Use your preferred decompression tool to unzip the file.
+Insert your USB drive. Be sure to remove all other removable media.
+Create the installer. If you’re using a third-party utility, refer to product documentation. If you’re using dd command-line utility on a Linux device:
+Open a terminal or command line.
+Use the command to write the image to USB:
+sudo dd if=image_name.bin of=/dev/sdN bs=4M status=progress
+image_name.bin—The name of the downloaded installer file
+/dev/sdN—The USB drive
+
+
 == Specification of the MacBook
 The late 2010 model of MacBook used for this experiment had the following specifications: 
 
@@ -34,6 +102,8 @@ The late 2010 model of MacBook used for this experiment had the following specif
 **Graphics**
 
 * NVIDIA GeForce 320M graphics processor with 256MB of DDR3 SDRAM shared with main memory3
+
+
 
 
 
@@ -80,3 +150,5 @@ https://askubuntu.com/questions/264247/proprietary-nvidia-drivers-with-efi-on-ma
 * when system runs out of power, the behaviour is unpredictable. At first the system does not seem to react to inputs. After some attempts the system will start, but the system will also report that the shutdown was unexpected. 
 
 
+== Install macOS again
+Option + Shift + Command + R: Start via het internet op vanaf macOS-herstel. Met deze toetscombinatie kun je de macOS-versie die bij je Mac is geleverd, of de versie het dichtst daarbij die nog beschikbaar is, opnieuw installeren.
