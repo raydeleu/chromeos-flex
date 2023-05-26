@@ -56,3 +56,8 @@ Intel PowerVR graphics, including GMA 500, 600, 3600, 3650
 ________________________________________
 
 https://blog.virtualwolf.org/installing-linux-mint-19-1-on-a-late-2010-macbook-air/
+https://wiki.archlinux.org/title/MacBookPro7,1#Nvidia%5B/url%5D
+https://askubuntu.com/questions/264247/proprietary-nvidia-drivers-with-efi-on-mac-to-prevent-overheating/613573#613573
+
+
+
