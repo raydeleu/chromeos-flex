@@ -73,7 +73,7 @@ Click Create now.
 Note: During the process, it is normal for Chrome Recovery Utility to show unusual percentages.
 When you get a message that your recovery media is ready, remove your USB drive from the device.
 
-For admins who are comfortable with creating bootable USB drives using dd command-line utility or other third-party utilities.
+For admins who are comfortable with creating bootable USB drives using dd command-line utility or other third-party utilities (such as Etcher, see https://etcher.balena.io/#download-etcher).
 
 On your device, download the latest ChromeOS Flex installer image.
 Use your preferred decompression tool to unzip the file.
