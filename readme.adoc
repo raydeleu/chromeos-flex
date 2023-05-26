@@ -89,6 +89,11 @@ via MacOS terminal
 
 diskutil list
 sudo umount /dev/disk2
+dd if=/path/to/image.iso of=/dev/disk2
+
+
+
+
 
 == Specification of the MacBook
 The late 2010 model of MacBook used for this experiment had the following specifications: 
