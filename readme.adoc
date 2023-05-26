@@ -41,7 +41,7 @@ The late 2010 model of MacBook used for this experiment had the following specif
 
 
 
-_________________________________________ 
+____
 NVIDIA graphics are generally unstable
 
 *Known issue* 
@@ -53,25 +53,30 @@ Multiple generations of Intel GPUs are unsupported on ChromeOS Flex and will not
 
 Intel Generation 3 and older, including GMA 900, 950, 3100, 3150
 Intel PowerVR graphics, including GMA 500, 600, 3600, 3650
-________________________________________
+____
+
+
 
 https://blog.virtualwolf.org/installing-linux-mint-19-1-on-a-late-2010-macbook-air/
 https://wiki.archlinux.org/title/MacBookPro7,1#Nvidia%5B/url%5D
 https://askubuntu.com/questions/264247/proprietary-nvidia-drivers-with-efi-on-mac-to-prevent-overheating/613573#613573
 
-install is straighforward without any hick-ups
-system works, wifi has reasonable speed
-startup time 26 seconds to login, without time to type password 59 seconds to desktop
-quick startup of Chrome browser
-download and upload speed were 98 Mbps and 93 Mbps respectively
-watching youtube videos is possible
-apps work 
+== Positive remarks
 
+* install is straighforward without any hick-ups
+* system works, wifi has reasonable speed
+* startup time 26 seconds to login, without time to type password 59 seconds to desktop
+* quick startup of Chrome browser
+* download and upload speed were 98 Mbps and 93 Mbps respectively
+* watching youtube videos is possible, but only after a full install. When trying YouTube running from USB the system crashed. 
+* the glitches in the display are not clear when running from USB, possibly because the video card is no longer the limiting factor or because the system does not operate very stable anyhow
+* apps work 
 
+== Negative remarks
 
-
-system sometimes is unresponsive for longer time (10-20 seconds). After showing a black or completely distorted screen for roughly 1-3 seconds, the display is refreshed and the system is responsive again. There seems to be a relation with loading new web pages in Chrome. Loading a sharepoint page seems to completely drown the device, bringing it to 100% CPU load and creating a relatively loud fan noise. Just scrolling a complex sharepoint page (for example the home page of my work account) brings the CPU load to 100% directly. 
-
-when system runs out of power, the behaviour is unpredictable. At first the system does not seem to react to inputs. After some attempts the system will start, but the system will also report that the shutdown was unexpected. 
+* system sometimes is unresponsive for longer time (10-20 seconds). After showing a black or completely distorted screen for roughly 1-3 seconds, the display is refreshed and the system is responsive again. There seems to be a relation with loading new web pages in Chrome.
+* sometimes the system completely crashes or hangs completely
+* Loading a sharepoint page seems to completely drown the device, bringing it to 100% CPU load and creating a relatively loud fan noise. Just scrolling a complex sharepoint page (for example the home page of my work account) brings the CPU load to 100% directly. 
+* when system runs out of power, the behaviour is unpredictable. At first the system does not seem to react to inputs. After some attempts the system will start, but the system will also report that the shutdown was unexpected. 
 
 
