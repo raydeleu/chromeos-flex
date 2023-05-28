@@ -1,0 +1,47 @@
+== Step 1.
+Open your terminal.
+
+In the root directory run the command:
+
+sudo xed /etc/bluetooth/main.conf
+The terminal will ask you to input your password. Please type it :)
+
+== Step 2.
+After that a file with configurations will be opened in a terminal window.
+
+Find the next line:
+
+#ControllerMode = dual
+
+== Step 3.
+Remove the hashtag before Controllermode and set it to "dual"
+// Change "dual" to "bredr". This was not necessary for me. 
+
+== Step 4.
+To save changes and exit xed editor do the following:
+
+On your keyboard press:
+Ctrl + s
+
+== Step 5.
+Restart the computer or run the next command in a terminal:
+
+sudo /etc/init.d/bluetooth restart
+
+After that you will see the message:
+
+"Restarting bluetooth (via systemctl): bluetooth.service."
+
+== Step 6.
+Go to your computer settings and enable Bluetooth so it starts to look for bluetooth connections
+
+== Step 7.
+The next actions should be performed exactly as described:
+
+* Put your airpods (both) inside the case
+* Keep the cover opened
+* With cover opened and airpods inside the case press and hold the button on the back of the airpods case.
+* Hold the button until you see the light blinking on the front side of the case, it can also make a sound signaling that it is in pairing mode
+
+== Step 8.
+Finaly, after all these steps you should find your AirPods on Bluetooth settings section and connect it ;)
